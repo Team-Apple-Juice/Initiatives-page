@@ -14,7 +14,12 @@
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: silver;  /*Sets the text hover color on navbar*/
 }
-
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover{
+    color: silver;
+    background-color: #404040;
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -37,12 +42,13 @@
 .nav > li > a:hover,
 .nav > li > a:focus {
     text-decoration: none;
-    background-color: silver; /*Change rollover cell color here*/
+    background-color: #404040; /*Change rollover cell color here*/
 }
 
 .navbar-default .navbar-nav > li > a {
     color: white; /*Change active text color here*/
 }
+
 /* Search Button */
 .sb-search {
     position: relative;
@@ -66,8 +72,8 @@
     border: none;
     outline: none;
     background: #fff;
-    width: 20%;
-    height: 50px;
+    width: 40%;
+    height: 40px;
     margin: 0;
     z-index: 10;
     padding: 20px 65px 20px 20px;
