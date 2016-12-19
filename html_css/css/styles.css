@@ -1,28 +1,130 @@
 /* Search icon by IcoMoon, made with http://icomoon.io/app/ */
 @font-face {
-    font-family: 'icomoon';
-    src:url('../fonts/icomoon/icomoon.eot');
-    src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.woff') format('woff'),
-    url('../fonts/icomoon/icomoon.ttf') format('truetype'),
-    url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
-    font-weight: normal;
+    font-family: 'Roboto';
+    url('../fonts/roboto/Roboto-Regular.ttf') format('truetype'),
     font-style: normal;
 }
 
-@media (min-width: 960px){
-    .limit-width {
-        max-width: 1200px;
-        margin: auto;
-    }
+#img-background > img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: -1;
+}
 
-    .box-container {
-        display: table;
-        width: 100%;
-        height: 100%;
-        table-layout: fixed;
-        position: relative;
+@media screen and (max-width: 480px){
+    #img-background > img{
+        top: 10px;
     }
+}
+@media screen and (min-width : 481px) and (max-width: 603px){
+    #img-background > img{
+        top: -10px;
+    }
+}
+@media screen and (min-width : 604px) and (max-width:734px){
+    #img-background > img{
+        top: -40px;
+    }
+}
+@media screen and (min-width : 735px) and (max-width: 991px){
+    #img-background > img{
+        top: -80px;
+    }
+}
+@media only screen and (min-width : 992px){
+    #img-background > img{
+        top: -100px;
+    }
+}
+@media only screen and (min-width : 1200px){
+    #img-background > img{
+        top: -120px;
+    }
+}
+
+.container{
+    position: relative;
+    left: 0;
+    top: 110px;
+    width: 100%;
+}
+.row {
+    background-color: white;
+    padding: 20px 0 20px 0;
+}
+
+.row > div{
+    padding: 0 15px;
+}
+
+.btn{
+    padding: 5px 35px;
+    border-radius: 0;
+    border: none;
+}
+
+.row > div > h2, p{
+    text-align: center;
+}
+
+.lbl-kids{
+    color: #10A67D;
+}
+.kids{
+    background-color: #10A67D;
+    color: white;
+    font-weight: bold;
+}
+
+.lbl-school{
+    color: #348192;
+}
+.school{
+    background-color: #348192;
+    color: white;
+    font-weight: bold;
+}
+
+.lbl-software{
+    color: #5CE500;
+}
+.software{
+    background-color: #5CE500;
+    color: white;
+    font-weight: bold;
+}
+
+.lbl-algo{
+    color: #1E4B6A;
+}
+.algo{
+    background-color: #1E4B6A;
+    color: white;
+    font-weight: bold;
+}
+
+.lbl-digital{
+    color: #786186;
+}
+.digital{
+    background-color: #786186;
+    color: white;
+    font-weight: bold;
+}
+
+.lbl-seminars{
+    color: #588AAD;
+}
+.seminars{
+    background-color: #588AAD;
+    color: white;
+    font-weight: bold;
+}
 
 .navbar {
     border-radius: 0;
