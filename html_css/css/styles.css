@@ -3,18 +3,12 @@ body {
     font-family: 'Roboto', serif;
 }
 
-#img-topa-background{
-    position: relative;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    z-index: -1;
-}
-
-#img-topa-background > img{
+#img-top-background{
+    background: url("../images/background-top-lines.png");
+    height: 136px;
     width: 100%;
 }
+
 
 @media screen and (max-width: 480px){
     #img-top-background > img{
@@ -48,9 +42,11 @@ body {
 }
 
 #img-bottom-background{
+    background: url("../images/background-bottom-lines.png");
+    top: -185px;
+    height: 280px;
     width: 100%;
     position: relative;
-    top: -185px;
     z-index: -1;
 }
 #img-bottom-background > img{
@@ -59,7 +55,7 @@ body {
 
 h1{
     text-align: center;
-    top: -115px;
+    top: 26px;
 }
 h3{
     margin: 0;
@@ -176,15 +172,31 @@ h3{
 .navbar-default .navbar-nav > li > a {
     color: white; /*Change active text color here*/
 }
-
+.glyphicon, .fa {
+    color: white;
+    font-size: 28px;
+    padding-top: 15px;
+}
+.fa {
+    font-family: FontAwesome;
+}
 
 /* Footer */
 #foother{
+    padding: 30px;
     background-color: #2A2D33;
+    color: white;
     position: relative;
     top: -185px;
+    height: 500px;
 }
 
+#foother p{
+    font-size: 13px;
+    text-align: left;
+    padding-left: 7px;
+    margin-bottom: 0;
+}
 
 
 /* Search Button */
