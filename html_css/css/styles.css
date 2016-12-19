@@ -3,10 +3,8 @@ body {
     font-family: 'Roboto', serif;
 }
 
-#img-background > img{
-    width: 100%;
-    position: absolute;
-    left: 0;
+#img-topa-background{
+    position: relative;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -14,52 +12,71 @@ body {
     z-index: -1;
 }
 
+#img-topa-background > img{
+    width: 100%;
+}
+
 @media screen and (max-width: 480px){
-    #img-background > img{
+    #img-top-background > img{
         top: 10px;
     }
 }
 @media screen and (min-width : 481px) and (max-width: 603px){
-    #img-background > img{
+    #img-top-background > img{
         top: -10px;
     }
 }
 @media screen and (min-width : 604px) and (max-width:734px){
-    #img-background > img{
+    #img-top-background > img{
         top: -40px;
     }
 }
 @media screen and (min-width : 735px) and (max-width: 991px){
-    #img-background > img{
+    #img-top-background > img{
         top: -80px;
     }
 }
 @media only screen and (min-width : 992px){
-    #img-background > img{
+    #img-top-background > img{
         top: -100px;
     }
 }
 @media only screen and (min-width : 1200px){
-    #img-background > img{
+    #img-top-background > img{
         top: -120px;
     }
 }
 
-.container{
-    position: relative;
-    left: 0;
-    top: 110px;
+#img-bottom-background{
     width: 100%;
+    position: relative;
+    top: -185px;
+    z-index: -1;
 }
-.row {
-    background-color: white;
-    padding: 20px 0 20px 0;
+#img-bottom-background > img{
+    width: 100%;
 }
 
 h1{
-    font-family: Roboto;
     text-align: center;
+    top: -115px;
 }
+h3{
+    margin: 0;
+    color: white
+}
+
+.container{
+    position: relative;
+    top: -20px;
+    width: 100%;
+}
+.row {
+/*    background-color: white;*/
+    padding: 20px 0 20px 0;
+}
+
+
 
 .row > div{
     padding: 0 15px;
@@ -113,6 +130,7 @@ h1{
 
 .navbar {
     border-radius: 0;
+    margin-bottom: 0;
 }
 /*  Navigation Section */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -158,6 +176,16 @@ h1{
 .navbar-default .navbar-nav > li > a {
     color: white; /*Change active text color here*/
 }
+
+
+/* Footer */
+#foother{
+    background-color: #2A2D33;
+    position: relative;
+    top: -185px;
+}
+
+
 
 /* Search Button */
 .sb-search {
