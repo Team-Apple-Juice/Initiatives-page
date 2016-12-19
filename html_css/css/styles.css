@@ -1,8 +1,6 @@
 /* Search icon by IcoMoon, made with http://icomoon.io/app/ */
-@font-face {
-    font-family: 'Roboto';
-    url('../fonts/roboto/Roboto-Regular.ttf') format('truetype'),
-    font-style: normal;
+body {
+    font-family: 'Roboto', serif;
 }
 
 #img-background > img{
@@ -59,6 +57,7 @@
 }
 
 h1{
+    font-family: Roboto;
     text-align: center;
 }
 
@@ -67,7 +66,7 @@ h1{
 }
 
 .btn{
-    padding: 5px 35px;
+    padding: 6px 35px;
     border-radius: 0;
     border: none;
 }
@@ -76,54 +75,36 @@ h1{
     text-align: center;
 }
 
-.lbl-kids{
-    color: #10A67D;
-}
 .kids{
     background-color: #10A67D;
     color: white;
     font-weight: bold;
 }
 
-.lbl-school{
-    color: #348192;
-}
 .school{
     background-color: #348192;
     color: white;
     font-weight: bold;
 }
 
-.lbl-software{
-    color: #5CE500;
-}
 .software{
     background-color: #5CE500;
     color: white;
     font-weight: bold;
 }
 
-.lbl-algo{
-    color: #1E4B6A;
-}
 .algo{
     background-color: #1E4B6A;
     color: white;
     font-weight: bold;
 }
 
-.lbl-digital{
-    color: #786186;
-}
 .digital{
     background-color: #786186;
     color: white;
     font-weight: bold;
 }
 
-.lbl-seminars{
-    color: #588AAD;
-}
 .seminars{
     background-color: #588AAD;
     color: white;
