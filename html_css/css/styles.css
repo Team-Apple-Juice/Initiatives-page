@@ -6,7 +6,8 @@ body {
 #img-top-background{
     background: url("../images/background-top-lines.png");
     height: 136px;
-    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -26,16 +27,25 @@ body {
     }
 }
 @media screen and (min-width : 735px) and (max-width: 991px){
+    .navbar-brand{
+        margin-left: 45px;
+    }
     #img-top-background > img{
         top: -80px;
     }
 }
 @media only screen and (min-width : 992px){
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+        margin-left: 45px;
+    }
     #img-top-background > img{
         top: -100px;
     }
 }
 @media only screen and (min-width : 1200px){
+    .navbar-brand{
+        margin-left: 45px;
+    }
     #img-top-background > img{
         top: -120px;
     }
@@ -43,9 +53,9 @@ body {
 
 #img-bottom-background{
     background: url("../images/background-bottom-lines.png");
-    top: -185px;
+    top: -235px;
     height: 280px;
-    width: 100%;
+    background-size: 100%;
     position: relative;
     z-index: -1;
 }
@@ -55,7 +65,7 @@ body {
 
 h1{
     text-align: center;
-    top: 26px;
+    top: 30px;
 }
 h3{
     margin: 0;
@@ -84,10 +94,15 @@ h3{
     border: none;
 }
 
-.row > div > h2, p{
+#initiatives > div > h2, p{
     text-align: center;
 }
-
+#initiatives > div > p{
+    height: 155px;
+}
+#initiatives > div > button{
+    margin-bottom: 50px;
+}
 .kids{
     background-color: #10A67D;
     color: white;
@@ -124,11 +139,15 @@ h3{
     font-weight: bold;
 }
 
+/*  Navigation Section */
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
+    min-height: 60px;
 }
-/*  Navigation Section */
+.container-fluid {
+    padding-top: 5px;
+}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: silver;  /*Sets the text hover color on navbar*/
 }
@@ -148,8 +167,8 @@ h3{
     padding: 0;
 }
 .navbar-brand > img{
-    height: 60px;
-    width: 174px;
+    height: 55px;
+    width: 240px;
 }
 .navbar-default {
     background-color: #404040;
@@ -172,19 +191,18 @@ h3{
 .navbar-default .navbar-nav > li > a {
     color: white; /*Change active text color here*/
 }
-.glyphicon{
+.fa-search{
     color: white;
-    font-size: 28px;
-    padding-top: 15px;
+    padding-top: 17px;
 }
 
 /* Footer */
 #footer{
-    padding: 30px;
+    padding: 30px 30px 0 30px;
     background-color: #2A2D33;
     color: white;
     position: relative;
-    top: -185px;
+    top: -235px;
 /*    height: 520px;*/
 }
 
