@@ -185,7 +185,7 @@ h3{
     color: white;
     position: relative;
     top: -185px;
-    height: 500px;
+    height: 520px;
 }
 
 #foother > .row > div > p{
@@ -239,7 +239,19 @@ h3{
 .fa-twitter{
     padding-left: 7px;
 }
+#lastRow{
+    padding-top: 0;
+}
+#logoProgress{
+    position: relative;
+    top: -13px;
+    left: 60px;
+    width: 50%;
+}
 
+#author{
+    float: right;
+}
 
 /* Search Button */
 .sb-search {
