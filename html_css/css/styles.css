@@ -179,13 +179,13 @@ h3{
 }
 
 /* Footer */
-#foother{
+#footer{
     padding: 30px;
     background-color: #2A2D33;
     color: white;
     position: relative;
     top: -185px;
-    height: 520px;
+/*    height: 520px;*/
 }
 
 #foother > .row > div > p{
