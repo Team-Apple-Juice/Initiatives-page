@@ -205,7 +205,7 @@ h3{
 /*    height: 520px;*/
 }
 
-#foother > .row > div > p{
+#footer > .container-fluid > .row > div > p{
     font-size: 13px;
     text-align: left;
     padding-left: 7px;
