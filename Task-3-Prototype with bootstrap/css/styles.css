@@ -16,16 +16,6 @@ p {
     top: 0;
 }
 
-@media screen and (min-width: 990px) and (max-width: 1200px) {
-    #img-top-background {
-        position: relative;
-        top: -20;
-    }
-    #initiatives>div>p {
-        height: 200px;
-    }
-}
-
 #img-bottom-background {
     background: url("../images/background-bottom-lines.png");
     top: -235px;
@@ -425,4 +415,19 @@ input[type="search"].sb-search-input {
     display: inline-block;
     margin: 35px;
     font-size: 1.1em;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+    #img-top-background h1 {
+        margin: 0px!important;
+    }
+    #initiatives>div>p {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    #img-top-background h1 {
+        margin: 0px!important;
+    }
 }
