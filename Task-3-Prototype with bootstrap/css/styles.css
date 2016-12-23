@@ -1,0 +1,397 @@
+/* Search icon by IcoMoon, made with http://icomoon.io/app/ */
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+p {
+    color: #4f5d6c;
+}
+
+#img-top-background {
+    background: url("../images/background-top-lines.png");
+    height: 136px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+    #img-top-background {
+        position: relative;
+        top: -20;
+    }
+    #initiatives>div>p {
+        height: 200px;
+    }
+}
+
+#img-bottom-background {
+    background: url("../images/background-bottom-lines.png");
+    top: -235px;
+    height: 280px;
+    align-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+h3 {
+    margin: 0;
+    color: white
+}
+
+.row {
+    /*    background-color: white;*/
+    padding: 20px 0 20px 0;
+}
+
+.row>div {
+    padding: 0 15px;
+}
+
+.btn {
+    padding: 6px 35px;
+    border-radius: 0;
+    border: none;
+}
+
+#initiatives>div>h2,
+p {
+    text-align: center;
+}
+
+#initiatives>div>p {
+    min-height: 155px;
+}
+
+#initiatives>div>button {
+    margin-bottom: 50px;
+}
+
+.lbl-kids,
+.lbl-school,
+.lbl-software,
+.lbl-algo,
+.lbl-digital,
+.lbl-seminars {
+    white-space: nowrap;
+}
+
+.kids {
+    background-color: #10A67D;
+    color: white;
+    font-weight: bold;
+}
+
+.school {
+    background-color: #348192;
+    color: white;
+    font-weight: bold;
+}
+
+.software {
+    background-color: #5CE500;
+    color: white;
+    font-weight: bold;
+}
+
+.algo {
+    background-color: #1E4B6A;
+    color: white;
+    font-weight: bold;
+}
+
+.digital {
+    background-color: #786186;
+    color: white;
+    font-weight: bold;
+}
+
+.seminars {
+    background-color: #588AAD;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*  Navigation Section */
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    min-height: 57px;
+}
+
+.container {
+    padding-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: silver;
+    /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: silver;
+    background-color: #404040;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    /*BACKGROUND color for active*/
+    background-color: #606060;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand>img {
+    height: 50px;
+}
+
+.navbar-default {
+    background-color: #404040;
+    border-color: #030033;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: silver;
+    /*change color of links in drop down here*/
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #404040;
+    /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    /*Change active text color here*/
+}
+
+.fa-search {
+    color: white;
+    padding-top: 17px;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 30px 30px 0 30px;
+    background-color: #2A2D33;
+    color: white;
+    position: relative;
+    top: -235px;
+    /*    height: 520px;*/
+}
+
+#footer>.container>.row>div>p {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+#footer>.container>.row>div>b {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 0;
+    color: #bababa;
+}
+
+
+/* Contacts and Social Networks */
+
+.contactLabel {
+    font-size: 1.1em;
+}
+
+.contact {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.contact>i {
+    margin-bottom: 15px;
+}
+
+.img-circle {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.img-circle>i {
+    padding-top: 9px;
+    text-align: center;
+    color: #2A2D33;
+    font-weight: bold;
+}
+
+.fa-facebook,
+.fa-linkedin {
+    padding-left: 8px;
+}
+
+.fa-google-plus {
+    padding-left: 4px;
+}
+
+.fa-youtube {
+    padding-left: 6px;
+}
+
+.fa-twitter {
+    padding-left: 7px;
+}
+
+#lastRow {
+    padding-top: 0;
+}
+
+#author {
+    float: right;
+}
+
+
+/* Search Button */
+
+.sb-search {
+    position: relative;
+    width: 0;
+    min-width: 50px;
+    height: 50px;
+    float: right;
+    overflow: hidden;
+    -webkit-transition: width 0.4s;
+    -moz-transition: width 0.4s;
+    transition: width 0.4s;
+    -webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 40%;
+    height: 40px;
+    margin: 0;
+    z-index: 10;
+    padding: 20px 65px 20px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+input[type="search"].sb-search-input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+    color: #efb480;
+}
+
+.sb-search-input:-moz-placeholder {
+    color: #efb480;
+}
+
+.sb-search-input::-moz-placeholder {
+    color: #efb480;
+}
+
+.sb-search-input:-ms-input-placeholder {
+    color: #efb480;
+}
+
+.sb-icon-search,
+.sb-search-submit {
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sb-search-submit {
+    background: #fff;
+    /* IE needs this */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 8 */
+    filter: alpha(opacity=0);
+    /* IE 5-7 */
+    opacity: 0;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: -1;
+}
+
+.sb-icon-search {
+    color: #fff;
+    background: #404040;
+    z-index: 90;
+    font-size: 16px;
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+    content: "\e000";
+}
+
+.sb-search.sb-search-open,
+.no-js .sb-search {
+    width: 100%;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+    background: #404040;
+    color: #fff;
+    z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+    z-index: 90;
+}
