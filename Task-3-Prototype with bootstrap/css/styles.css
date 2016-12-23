@@ -70,10 +70,6 @@ p {
     min-height: 155px;
 }
 
-#initiatives>div>button {
-    margin-bottom: 50px;
-}
-
 .lbl-kids,
 .lbl-school,
 .lbl-software,
@@ -87,36 +83,48 @@ p {
     background-color: #10A67D;
     color: white;
     font-weight: bold;
+    width: 160px;
+    margin-bottom: 50px;
 }
 
 .school {
     background-color: #348192;
     color: white;
     font-weight: bold;
+    width: 160px;
+    margin-bottom: 50px;
 }
 
 .software {
     background-color: #5CE500;
     color: white;
     font-weight: bold;
+    width: 160px;
+    margin-bottom: 50px;
 }
 
 .algo {
     background-color: #1E4B6A;
     color: white;
     font-weight: bold;
+    width: 160px;
+    margin-bottom: 50px;
 }
 
 .digital {
     background-color: #786186;
     color: white;
     font-weight: bold;
+    width: 160px;
+    margin-bottom: 50px;
 }
 
 .seminars {
     background-color: #588AAD;
     color: white;
     font-weight: bold;
+    width: 160px;
+    margin-bottom: 50px;
 }
 
 
@@ -394,4 +402,27 @@ input[type="search"].sb-search-input {
 .sb-search.sb-search-open .sb-search-submit,
 .no-js .sb-search .sb-search-submit {
     z-index: 90;
+}
+
+.article-container {
+    margin: 30px 40px;
+}
+
+.article-container h1 {
+    margin: 0 40px;
+}
+
+.article-container p {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.article-container ul li {
+    color: #4f5d6c;
+}
+
+.algo-seasons li {
+    display: inline-block;
+    margin: 35px;
+    font-size: 1.1em;
 }
